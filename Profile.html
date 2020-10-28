@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zach's Profile</title>
+
+<style>
+.About{
+    text-align: center;
+    margin-top: var(--top-margin);
+    left:0;
+}
+
+.About-head{
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.brand-div{
+    display: flex;
+    justify-content: center;
+}
+
+.brand-statement{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.About-body{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about-column {
+    float: left;
+    /* width: 33.33%; */
+    padding: 5px;
+}
+
+.About-body img{
+    width:278px;
+    height: 423px;
+    border:2px solid #ff7373;
+}
+
+.About-body p{
+    margin-top: 0;
+    background-color:#4bd7d4;
+    height: 100%;
+}
+
+.zw-hr{
+    margin-left: var(--hr-margin);
+    margin-right: var(--hr-margin);
+    opacity: 0.5;
+}
+
+
+h1{
+    color:#ff7373;
+    text-shadow: 1px 1px black;
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+}
+
+
+
+.Projects{
+    text-align: center;
+    top:0;
+    left:0;
+}
+
+.project-body{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.project-column {
+    float: left;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.project-body img{
+    width:525px;
+    height: 550px;
+}
+
+.project-body p{
+    margin-top: 0;
+    background-color: #4bd7d4;
+    height: 100%;
+}
+
+
+
+
+  .footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-container img{
+    width: 25px;
+    height: 25px;
+    padding: 25px;
+}
+
+.footer-hr{
+    margin-top: var(--top-margin);
+    margin-left:var(--hr-margin);
+    margin-right:var(--hr-margin);
+    opacity: 0.5;
+}
+</style>
+
+
+</head>
+<body>
+<div class='About'>
+    <div class='About-head'>
+        <strong><h1>Zachary Wilson</h1></strong>
+        <hr class='zw-hr'/>
+        <div class="brand-div">
+            <p class='brand-statement'>
+                Detail oriented, self-motivated Data Analyst handling data with the utmost care. Working as a team, or alone, to solve complex problems and build visualizations with Python, Tableau, or JavaScript. Certified through KU, always willing to learn more and grow in the dataspace.
+            </p>
+        </div>
+    </div>
+    <div class='About-body'>
+        <div class="about-column">
+            <p>
+                Sparking a passion for coding at a young age, Zachary Wilson has both the aspiration and ability to develop. After getting his certification in Data Science at the University of Kansas, he set off to learn more about development and grow in his career. As of now, he takes on each project he encounters to push himself and learn something new. Gaining more and more knowledge as he works.
+                <br/>
+                <br/>
+                Zachary Wilson is a data analyst. Having worked on several projects, both personal and as a team, he has proven himself in the data space. Continually solving complex problems with coding, making not just his life more efficient but others as well.
+
+            </p>   
+        </div>
+        <div class="about-column">
+            <img class='About-img' src="./img/Zach.png" alt="Zach" />
+        </div>
+    </div>
+</div>
+
+<div class='Projects'>
+    <div class='project-body'>
+        <div class="project-column">
+            <a href="https://public.tableau.com/profile/adipersio#!/vizhome/TopekaFoodResouces/Dashboard?publish=yes"><img src="./img/tableau.png" alt="tableau" /></a>
+        </div>
+        <div class="project-column">
+            <p>
+                Teaming up with United Way, a group and I were asked a question: In areas with higher median household income, will there be more food resources available in that area than areas with lower median income?
+                <br/>
+                <br/>
+                To answer this question, our group decided to collect data from the Google Places API and from the Census Bureau. After collecting the data we would create a Tableau page to visulize what we had collected and show our findings to United Way. Lastly, our group wanted to make a machine learning model for the data to test the inital question.
+            </p>   
+        </div>
+    </div>
+
+    <div class='project-body'>
+        <div class="project-column">
+            <p class="project-text">
+                Ever since the 70's game companies, big and small, have been producing games to keep the public entertained. These game range from sports titles to open world exploring games, all to meet the publics needs. Our group sought out sales data for video games to see what games are the most profitable, and what kind of games thrive best in different areas of the world.
+                <br/>
+                <br/>
+                With these goals in mind our team set out to gather data, storing it in an SQL database, and host it on a python server, visulizing it through the browser using JavaScript D3.
+            </p>     
+        </div>
+        <div class="project-column">
+        <a href="https://github.com/Zachary-R-Wilson/Videogame-Sales-Analysis"><img src="./img/vgsales.png" alt="tableau" /></a>
+        </div>
+    </div>
+</div>
+
+
+<footer class='footer'> 
+    <hr class="footer-hr"/>
+    <div class="footer-container">
+            <a href="story.html"><img class="foot_logo" src="./img/ZW_logo.png" alt="Zachary Wilson"/></a>
+            <div class="link-container">
+                    <a href="https://github.com/Zachary-R-Wilson"><img src="./img/github_icon.webp" alt="GitHub"/></a>
+                    <a href="https://www.linkedin.com/in/zacharywilson19/"><img src="./img/linkedin_icon.png" alt="Linkedin"/></a>
+                    <a href="mailto:zwilsondeals@gmail.com"><img src="./img/gmail_icon.webp" alt="Gmail"/></a>
+            </div>
+            <p>Zachary Wilson, © 2020</p>
+    </div>    
+</footer>
+
+</body>
+</html>
